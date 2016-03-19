@@ -24,11 +24,11 @@
     @include('layouts.navbar')
 		<div class="container-fluid">
       <div class="row">
-        @include('layout.sidebar-utente')
+        @include('layouts.sidebar-utente')
         <div class="col-sm-6">
 			    @yield('content')
         </div>
-        @include('layout.sidebar-eventi')
+        @include('layouts.sidebar-eventi')
       </div>
 		</div>
 

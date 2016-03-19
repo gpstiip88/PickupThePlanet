@@ -21,30 +21,14 @@
 		</style>
 	</head>
 	<body>
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#">PickUpThePlanet</a>
-        </div>
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Notifiche</a></li>
-          <li><a href="#">Ricerca</a></li>
-          <li><a href="#">Scrivi</a></li>
-        </ul>
-      </div>
-    </nav>
+    @include('layouts.navbar')
 		<div class="container-fluid">
       <div class="row">
-        <div class="col-sm-3">
-          <!-- Sidebar utente id 0-->
-        </div>
+        @include('layout.sidebar-utente')
         <div class="col-sm-6">
-          {{ $variable }}
 			    @yield('content')
         </div>
-        <div class="col-sm-3">
-          <!-- Sidebar Eventi -->
-        </div>
+        @include('layout.sidebar-eventi')
       </div>
 		</div>
 

@@ -24,9 +24,7 @@
     <nav class="navbar navbar-default">
       <div class="container-fluid">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#">
-            <h1>PickUpThePlanet</h1>
-          </a>
+          <a class="navbar-brand" href="#">PickUpThePlanet</a>
         </div>
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#">Notifiche</a></li>
@@ -35,8 +33,19 @@
         </ul>
       </div>
     </nav>
-		<div class="container">
-			@yield('content')
+		<div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3">
+          <!-- Sidebar utente id 0-->
+        </div>
+        <div class="col-sm-6">
+          {{ $variable }}
+			    @yield('content')
+        </div>
+        <div class="col-sm-3">
+          <!-- Sidebar Eventi -->
+        </div>
+      </div>
 		</div>
 
 		<!-- jQuery -->

@@ -19,4 +19,8 @@ class Event extends Model
     public function interests(){
         return $this->belongsToMany('App\Interest');
     }
+
+    public function comments(){
+        return $this->morphMany('App\Comment', 'commentable');
+    }
 }

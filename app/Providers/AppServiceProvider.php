@@ -15,8 +15,8 @@ class AppServiceProvider extends ServiceProvider
     {
         view()->composer('layouts.master', function($view)
         {
-            $data = array('user' => \App\User::find(1));
-            $view->with(compact('data'));
+            $user = \App\User::findOrFail(1);
+            $view->with('user', $user);
         });
     }
 

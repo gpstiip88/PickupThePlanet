@@ -39,6 +39,7 @@
           <!-- Sidebar utente id 0-->
         </div>
         <div class="col-sm-6">
+          {{ $variable }}
 			    @yield('content')
         </div>
         <div class="col-sm-3">

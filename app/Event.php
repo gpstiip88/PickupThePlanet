@@ -11,4 +11,12 @@ class Event extends Model
 		'date',
 		'user_id',
 	];
+
+	public function users(){
+        return $this->belongsToMany('App\User');
+    }
+
+    public function interests(){
+        return $this->belongsToMany('App\Interest');
+    }
 }

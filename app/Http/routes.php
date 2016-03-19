@@ -34,3 +34,12 @@ Route::group(['middleware' => ['web']], function () {
 	Route::resource('users', 'UsersController');
 	Route::resource('events', 'EventsController');
 });
+Route::group(['middleware' => ['web']], function () {
+	Route::resource('posts', 'PostsController');
+});
+Route::group(['middleware' => ['web']], function () {
+	Route::resource('comments', 'CommentsController');
+});
+Route::group(['middleware' => ['web']], function () {
+	Route::resource('interests', 'InterestsController');
+});

@@ -32,4 +32,5 @@ Route::group(['middleware' => ['web']], function () {
 
 Route::group(['middleware' => ['web']], function () {
 	Route::resource('users', 'UsersController');
+	Route::resource('events', 'EventsController');
 });

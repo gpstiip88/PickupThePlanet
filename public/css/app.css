@@ -2,6 +2,9 @@ body {
   background-color: #E1DCCF;
   font-family: 'Raleway', sans-serif; }
 
+#avatar {
+  max-width: 200px; }
+
 .main {
   margin-top: 16px; }
 

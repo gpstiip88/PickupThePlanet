@@ -5,6 +5,9 @@ body {
 #avatar {
   max-width: 200px; }
 
+.mini-avatar {
+  max-width: 64px; }
+
 .main {
   margin-top: 16px; }
 

@@ -14,7 +14,7 @@
       </div>
     </div>
     <div class="row" style="border-bottom: 1px solid orange">
-      <div class="col-sm-8">
+      <div class="col-sm-8" style="padding: 16px;">
         <p>{{ $event->description }}</p>
       </div>
       <div class="col-sm-4">

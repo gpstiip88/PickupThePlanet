@@ -3,7 +3,17 @@
 @section('content')
   @if(isset($posts))
   @foreach($posts as $post)
-  <div class="col-xs-12 post sfondo-bianco">
+  <div class="col-xs-12 sfondo-bianco" style="margin-bottom: 16px;">
+  	<div class="row">
+	  	<div class="col-xs-12" style="padding: 8px">
+	  		<img src="{{ asset('uploads/images/utente.jpg') }}" class="img-responsive pull-left img-circle mini-avatar" />
+	  		<span class="pull-left text-middle" 
+	  		style="line-height: 60px; padding: 0 16px;color: grey; font-size: 20px">Cosa vuoi seminare oggi?</span>
+	  		<span class="pull-right icone icone-appunti" style="transform: scale(2.5);margin: 24px 16px 0 0;"></span>
+	  	</div>
+	  </div>
+  </div>
+  <div class="col-xs-12 sfondo-bianco">
 	  <div class="row">
 	  	<div class="col-xs-12" style="padding: 8px">
 	  		<img src="{{ asset($post->user->image) }}" class="img-responsive pull-left img-circle mini-avatar" />
@@ -32,7 +42,7 @@
       <div class="col-xs-12">
         <form>
           <div class="form-group">
-            <textarea width="100%" placeholder="Scrivi il tuo commento..."></textarea>
+            <textarea style="width: 100%" placeholder="Scrivi il tuo commento..."></textarea>
             <a class="btn sfondo-arancio testo-bianco" href="#">INVIA</a>
           </div>
         </form>

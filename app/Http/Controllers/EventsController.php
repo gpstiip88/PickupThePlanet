@@ -47,14 +47,17 @@ class EventsController extends Controller
      */
     public function store(CreateEventRequest $request)
     {
-        $event = Event::create($request->all());
+        $inputs = $request->all();
 
-        $imageName = $event->id . '.' . 
-        $request->file('image')->getClientOriginalExtension();
+        $imageName = $request->file('image')->getClientOriginalName();
 
         $request->file('image')->move(
             base_path() . '/public/uploads/images/', $imageName
         );
+
+        $inputs['image'] = 'uploads/images/'. $imageName;
+
+        $event = Event::create($inputs);
 
         return redirect()->route('events.index');
     }

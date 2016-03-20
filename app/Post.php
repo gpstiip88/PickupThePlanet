@@ -4,10 +4,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Post extends Model
 {
-    protected $fillable = [
-		'content',
-		'image',
-		'user_id',
+    protected $guarded = [
 	];
 
 	public function user(){

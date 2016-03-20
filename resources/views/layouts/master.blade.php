@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Laravel</title>
+		<title>PickUp The Planet</title>
 
 		<!-- Bootstrap CSS -->
 		<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
@@ -15,18 +15,14 @@
 			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 		<![endif]-->
-
-		<style type="text/css">
-			body {padding-top: 60px};
-		</style>
 	</head>
 	<body>
     @include('layouts.navbar')
-		<div class="container-fluid">
+		<div class="container">
       <div class="row">
         @include('layouts.sidebar-utente')
         <div class="col-sm-6">
-			    @yield('content')
+			@yield('content')
         </div>
         @include('layouts.sidebar-eventi')
       </div>

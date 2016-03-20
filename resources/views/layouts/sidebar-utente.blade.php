@@ -1,4 +1,4 @@
-<div idclass="col-sm-3 center-block">
+<div class="col-sm-3 center-block">
   <img src="{{ asset('public/img/'.$user['image']) }}"
     alt="{{ $user['name'] }}-avatar" class="img-circle">
   <h2 class="text-center">{{ $user['name'] }}</h2>

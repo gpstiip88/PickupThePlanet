@@ -6,6 +6,9 @@ $grigio: #E1DCCF;
 $blu: #37D1C2;
 $arancio: #FFB752;
 $nero: #333;
+$viola: #6F2F73;
+$celeste: #3FA6F2;
+$giallo: #D6DD21;
 
 body {
   background-color: $grigio;
@@ -67,7 +70,19 @@ body {
 }
 
 .sfondo-verde {
-  background-color: $verde
+  background-color: $verde;
+}
+
+.sfondo-viola {
+  background-color: $viola;
+}
+
+.sfondo-celeste {
+  background-color: $celeste;
+}
+
+.sfondo-giallo {
+  background-color: $giallo;
 }
 
 .testo-marrone {

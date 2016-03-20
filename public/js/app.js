@@ -4,6 +4,6 @@ jQuery(document).ready(function($){
 	});
 
   $('.icone-comment').click(function(){
-    $('#'+$(this).data('textarea')).slideUp().removeClass('hidden').slideDown();
+    $('#'+$(this).data('textarea')).slideToggle();
   });
 });

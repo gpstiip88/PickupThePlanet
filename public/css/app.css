@@ -3,12 +3,17 @@ body {
   font-family: 'Raleway', sans-serif; }
 
 .main {
-  top: 132px; }
+  margin-top: 16px; }
 
 .no-padding {
   padding: 0; }
 
-#sidebar-utente, #sidebar-eventi {
+.same-height {
+  float: none;
+  display: table-cell;
+  vertical-align: top; }
+
+.padded-updown {
   padding-top: 16px;
   padding-bottom: 16px; }
 
@@ -30,9 +35,17 @@ body {
 .testo-verde {
   color: #A0C775; }
 
+.testo-grande {
+  font-size: 32px; }
+
 #dashboard-centro-esterno {
   padding: 0 16px;
   background-color: #E1DCCF; }
+
+.evento {
+  margin: 8px;
+  padding: 24px;
+  border: 1px solid #FFB752; }
 
 .putp-navbar {
   background-color: #A0C775;
@@ -43,18 +56,12 @@ body {
   background-repeat: no-repeat;
   display: block; }
 
-.icone-foglio, .icone-lente, .icone-occhio,
+.icone-lente,
 .icone-notifiche, .icone-appunti, .icone-connect,
 .icone-comment, .icone-cuore {
   background-size: 80px auto;
   width: 20px;
   height: 20px; }
-
-.icone-foglio {
-  background-position: 0 0; }
-
-.icone-occhio {
-  background-position: -20px 0; }
 
 .icone-appunti {
   background-position: -40px 0; }
@@ -74,11 +81,22 @@ body {
 .icone-lente {
   background-position: -60px -20px; }
 
-.icone-semi-verde, .icone-pianta-verde, .icone-frutto-verde,
-.icone-semi-bianco, .icone-pianta-bianco, .icone-frutto-bianco {
+.icone-occhio, .icone-semi-verde, .icone-pianta-verde, .icone-frutto-verde,
+.icone-semi-bianco, .icone-.icone-occhio, bianco, .icone-frutto-bianco {
   background-size: 240px auto;
   width: 60px;
   height: 60px; }
+
+.icone-foglio {
+  background-size: 160px auto;
+  width: 40px;
+  height: 40px; }
+
+.icone-foglio {
+  background-position: 0 0; }
+
+.icone-occhio {
+  background-position: -60px 0; }
 
 .icone-semi-verde {
   background-position: 0 -300px; }

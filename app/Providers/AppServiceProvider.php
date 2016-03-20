@@ -16,7 +16,7 @@ class AppServiceProvider extends ServiceProvider
         view()->composer('layouts.master', function($view)
         {
             $user = \App\User::findOrFail(1);
-            $view->with('user', $user);
+            $view->with('user', $user)->with('events', \App\Event::all());
         });
     }
 

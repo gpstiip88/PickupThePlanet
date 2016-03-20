@@ -26,6 +26,14 @@
 		  				{{ date('d|m|Y H:i', strtotime($event->date)) }}
 		  			</div>
 		  		</div>
+		  		<div class="row no-padding">
+		  			<div class="col-xs-6">
+		  				<strong class="text-uppercase">{{ $event->city }}</strong>
+		  			</div>
+		  			<div class="col-xs-6">
+		  				<a href="{!! route('events.show', $event->id) !!}" class="btn sfondo-arancio testo-bianco">ISCRIVITI</a>
+		  			</div>
+		  		</div>
 		  	</div>
 	  		@endforeach
 	  		@endif

@@ -8,6 +8,7 @@
 
 		<!-- Bootstrap CSS -->
 		<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -18,7 +19,7 @@
 	</head>
 	<body>
     @include('layouts.navbar')
-		<div class="container">
+		<div class="container main">
       <div class="row">
         @include('layouts.sidebar-utente')
         <div class="col-sm-6">

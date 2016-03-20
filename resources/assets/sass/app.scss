@@ -12,6 +12,10 @@ $nero: #333;
   background-color: $grigio;
 }
 
+.putp-navbar {
+  background-color: $verde;
+}
+
 .icone {
   background-image: url('../img/icons.png');
   background-repeat: no-repeat;
@@ -107,4 +111,10 @@ $nero: #333;
 
 .icone-frutto-verde-3 {
   background-position: -40px -120px;
+}
+
+@media (min-width: 768px) {
+  .form-inline .has-feedback .form-control-feedback {
+  top: 7px;
+  }
 }

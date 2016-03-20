@@ -5,12 +5,21 @@
   <div class="row">
     <div class="col-sm-6 followers">
       <p>Followers</p>
-      <span id="followers-number">120</span>
+      <span id="followers-number" class="testo-marrone">120</span>
     </div>
     <div class="col-sm-6 following">
       <p>Following</p>
-      <span id="following-number">88</span>
+      <span id="following-number" class="testo-verde">88</span>
     </div>
+  </div>
+  <div id="livello" class="row sfondo-verde">
+    <div class="col-sm-4"><span class="icone icone-seme-verde-3"></span></div>
+    <div class="col-sm-4"><span class="icone icone-pianta-verde-3"></span></div>
+    <div class="col-sm-4"><span class="icone icone-fruttp-verde-2"></span></div>
+  </div>
+  <div class="row sfondo-arancio">
+    <div class="col-sm-3"><span class="icone icone-foglio"></div>
+    <div class="col-sm-9"><span>crea evento</span></div>
   </div>
   <div class="tags">
     <div class="tags-main">

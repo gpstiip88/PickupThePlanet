@@ -3,7 +3,7 @@
 @section('content')
   <div class="sfondo-bianco">
     <div class="row" style="display: table;padding: 0 16px;">
-      <div class="col-sm-4 same-height @if($event->type_id == 1)sfondo-arancio @elseif($event->type_id == 3)sfondo-viola @else sfondo-celeste @endif testo-bianco testo-grande text-uppercase">
+      <div class="col-sm-4 same-height @if($event->type_id == 1)sfondo-verde @elseif($event->type_id == 3)sfondo-viola @else sfondo-celeste @endif testo-bianco testo-grande text-uppercase">
             {{ $event->type->name }}
       </div>
       <div class="col-sm-8 same-height">
@@ -26,11 +26,11 @@
       </div>
       <div class="col-sm-4">
         <p>Luogo</p>
-        <img href="{{ asset('img/luogo.jpg') }}">
+        <img class=" img-circle mini-avatar " src="{{ asset('uploads/images/mappe.gif') }}">
         <p>Partecipanti</p>
-        @foreach ($event->users as $user)
-          <img src="{{ asset($user->image) }}" class="mini-avatar img-circle pull-left">
-        @endforeach
+        
+          <img style="margin-bottom: 8px;" src="{{ asset(App\User::find(1)->image) }}" class="img-responsive mini-avatar img-circle pull-left">
+        
       </div>
       <div class="col-sm-offset-1 col-sm-10" style="margin-bottom: 10px; border-bottom: 1px solid orange;"></div>
       <div class="row" style="margin: 16px;">

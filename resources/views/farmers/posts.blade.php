@@ -25,7 +25,7 @@
     </div>
     @if(isset($post->image))
     <div class="row">
-      <div class="col-xs-12" style="margin: 16px;">
+      <div class="col-xs-12">
         <img src="{{ asset($post->image) }}" class="img-responsive" />
       </div>
     </div>

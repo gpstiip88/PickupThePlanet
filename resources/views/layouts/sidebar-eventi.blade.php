@@ -11,7 +11,7 @@
 	  		@foreach($events as $event)
 	  		<div class="evento">
 		  		<div class="row" style="display:table;">
-		  			<div class="col-xs-6 @if($event->type_id == 1)sfondo-arancio @elseif($event->type_id == 3)sfondo-viola @else sfondo-celeste @endif same-height">
+		  			<div class="col-xs-6 @if($event->type_id == 1)sfondo-verde @elseif($event->type_id == 3)sfondo-viola @else sfondo-celeste @endif same-height">
 		  				<h3 class="testo-bianco">{{ $event->type->name }}</h3>
 		  			</div>
 		  			<div class="col-xs-6 no-padding same-height">

@@ -7,13 +7,26 @@ $blu: #37D1C2;
 $giallo: #FFB752;
 $nero: #333;
 
+body {
+  background-color: $grigio;
+}
+
 .main {
-  top: 100px;
+  top: 132px;
+}
+
+.sfondo-bianco {
+  background-color: white;
+}
+
+#dashboard-centro-esterno {
+  padding: 0 16px;
   background-color: $grigio;
 }
 
 .putp-navbar {
   background-color: $verde;
+  padding: 16px 0;
 }
 
 .icone {

@@ -23,8 +23,10 @@
 		<div class="container main">
       <div class="row">
         @include('layouts.sidebar-utente')
-        <div class="col-sm-6">
-			@yield('content')
+        <div id="dashboard-centro" class="col-sm-6">
+          <div>
+			    @yield('content')
+          </div>
         </div>
         @include('layouts.sidebar-eventi')
       </div>

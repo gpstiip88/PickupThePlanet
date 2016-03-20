@@ -33,4 +33,5 @@ Route::group(['middleware' => ['web']], function () {
 	Route::resource('posts', 'PostsController');
 	Route::resource('comments', 'CommentsController');
 	Route::resource('interests', 'InterestsController');
+	Route::resource('event_types', 'EventTypesController');
 });

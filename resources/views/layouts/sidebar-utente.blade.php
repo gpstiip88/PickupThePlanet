@@ -1,4 +1,6 @@
 <div id="sidebar-utente" class="col-sm-3 sfondo-bianco text-center padded-updown">
+  <span class="icone icone-notifiche" style="position: absolute; top: 16px; left: 260px;"></span>
+  <strong style="position: absolute; top: 8px; left: 275px; background-color: black; color: white; border-radius: 50%;width:15px;height:15px;line-height:15px">1</strong>
   <img id="avatar" src="{{ asset($user['image']) }}" alt="{{ $user['name'] }}-avatar" class="img-circle center-block img-responsive">
   <h2 class="text-center">{{ $user['name'] }}</h2>
   <h3 class="text-center">{{ $user['username'] }}</h3>

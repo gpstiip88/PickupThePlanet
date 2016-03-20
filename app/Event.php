@@ -4,12 +4,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Event extends Model
 {
-    protected $fillable = [
-		'title',
-		'description',
-		'city',
-		'date',
-		'user_id',
+    protected $guarded = [
 	];
 
 	public function users(){

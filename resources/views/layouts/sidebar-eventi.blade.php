@@ -13,8 +13,8 @@
 	  			<div class="col-xs-6 sfondo-arancio">
 	  				<h3 class="testo-bianco">{{ $event->type }}</h3>	  				
 	  			</div>
-	  			<div class="col-xs-6">
-	  				<img class="img-responsive" src="{{ $event->image }}" />	  				
+	  			<div class="col-xs-6 no-padding">
+	  				<img class="img-responsive" src="{{ asset($event->image) }}" />	  				
 	  			</div>
 	  		</div>
 	  		<div class="row">

@@ -1,4 +1,4 @@
-<div id="sidebar-utente" class="col-sm-3 text-center sfondo-bianco padded-updown">
+<div id="sidebar-utente" class="col-sm-3 sfondo-bianco padded-updown">
   <img src="{{ asset('img/utente.jpg') }}" alt="{{ $user['name'] }}-avatar" class="img-circle img-responsive">
   <h2 class="text-center">{{ $user['name'] }}</h2>
   <h3 class="text-center">{{ $user['username'] }}</h3>
@@ -18,17 +18,14 @@
     <div class="col-sm-4"><span class="icone icone-frutto-bianco"></span></div>
   </div>
   <div class="row sfondo-arancio padded-updown">
-    <div class="col-sm-3"><span class="icone icone-foglio"></span></div>
+    <div class="col-sm-3"><span class="icone icone-foglio"></div>
     <div class="col-sm-9"><span class="testo-grande">crea evento</span></div>
-  </div>
-  <div class="text-center">
+  </div class="text-center">
     <span class="icone icone-occhio center-block"></span>
     <h4>mi interesso a</h4>
-    <p class="sfondo-verde testo-bianco testo-grande img-circle">#Bio</p>
+    <p class="sfondo-verde testo-bianco testo-grande center-block text-circle">#Bio</p>
     <p class="testo-verde testo-grande">#Natura</p>
     <p class="testo-verde testo-grande">#Alimentazione</p>
     <p class="testo-verde">#cucina</p>
   </div>
-  
-
 </div>

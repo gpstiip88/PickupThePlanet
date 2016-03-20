@@ -16,6 +16,10 @@ body {
   top: 132px;
 }
 
+.no-padding {
+  padding: 0;
+}
+
 #sidebar-utente, #sidebar-eventi {
   padding-top: 16px;
   padding-bottom: 16px;
@@ -62,10 +66,7 @@ body {
 
 .icone-foglio, .icone-lente, .icone-occhio,
 .icone-notifiche, .icone-appunti, .icone-connect,
-.icone-comment, .icone-cuore, .icone-semi, .icone-pianta, .icone-frutto,
-.icone-semi-verde, .icone-pianta-verde, .icone-frutto-verde,
-.icone-semi-verde-2, .icone-pianta-verde-2, .icone-frutto-verde-2,
-.icone-semi-verde-3, .icone-pianta-verde-3, .icone-frutto-verde-3 {
+.icone-comment, .icone-cuore {
   background-size: 80px auto;
   width: 20px;
   height: 20px;
@@ -103,52 +104,35 @@ body {
   background-position: -60px -20px;
 }
 
-.icone-seme {
-  background-position: 0 -40px;
+.icone-semi-verde, .icone-pianta-verde, .icone-frutto-verde,
+.icone-semi-bianco, .icone-pianta-bianco, .icone-frutto-bianco {
+  background-size: 240px auto;
+  width: 60px;
+  height: 60px;
 }
 
-.icone-pianta {
-  background-position: -20px -40px;
-}
-
-.icone-frutto {
-  background-position: -40px -40px;
-}
-
-.icone-seme-verde {
-  background-position: 0 -60px;
+.icone-semi-verde {
+  background-position: 0 -300px;
 }
 
 .icone-pianta-verde {
-  background-position: -20px -60px;
+  background-position: -60px -300px;
 }
 
 .icone-frutto-verde {
-  background-position: -40px -60px;
+  background-position: -120px -300px;
 }
 
-.icone-seme-verde-2 {
-  background-position: 0 -80px;
+.icone-semi-bianco {
+  background-position: 0 -360px;
 }
 
-.icone-pianta-verde-2 {
-  background-position: -20px -80px;
+.icone-pianta-bianco {
+  background-position: -60px -360px;
 }
 
-.icone-frutto-verde-2 {
-  background-position: -40px -80px;
-}
-
-.icone-seme-verde-3 {
-  background-position: 0 -100px;
-}
-
-.icone-pianta-verde-3 {
-  background-position: -20px -100px;
-}
-
-.icone-frutto-verde-3 {
-  background-position: -40px -100px;
+.icone-frutto-bianco {
+  background-position: -120px -360px;
 }
 
 @media (min-width: 768px) {

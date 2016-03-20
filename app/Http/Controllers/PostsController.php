@@ -47,7 +47,17 @@ class PostsController extends Controller
      */
     public function store(CreatePostRequest $request)
     {
-        $post = Post::create($request->all());
+        $inputs = $request->all();
+
+        $imageName = $request->file('image')->getClientOriginalName();
+
+        $request->file('image')->move(
+            base_path() . '/public/uploads/images/', $imageName
+        );
+
+        $inputs['image'] = 'uploads/images/'. $imageName;
+
+        $post = Post::create($inputs);
 
         return redirect()->route('posts.index');
     }

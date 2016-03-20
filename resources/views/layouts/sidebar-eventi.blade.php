@@ -1,6 +1,6 @@
-<div class="col-sm-3">
+<div id="sidebar-eventi" class="col-sm-3 sfondo-bianco center-block">
   <!-- Sidebar Eventi -->
-  
+
   	<div class="row">
   		<div class="panel panel-default">
 		  <div class="panel-heading"><span class="icone icone-foglio pull-left"></span>

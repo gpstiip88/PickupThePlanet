@@ -52,6 +52,13 @@
 	</div>
 
 	<div class="form-group">
+	    {!! Form::label('type', 'Type:', ['class' => 'col-md-2 control-label']) !!}
+	    <div class="col-sm-9">
+	        {!! Form::text('type', null, ['class' => 'form-control']) !!}
+	    </div>
+	</div>
+
+	<div class="form-group">
 	    {!! Form::label('image', 'Immagine:', ['class' => 'col-md-2 control-label']) !!}
 	    <div class="col-sm-9">
 	        {!! Form::file('image', null, ['class' => 'form-control']) !!}

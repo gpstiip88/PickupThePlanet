@@ -1,11 +1,31 @@
 body {
-  background-color: #E1DCCF; }
+  background-color: #E1DCCF;
+  font-family: 'Raleway', sans-serif; }
 
 .main {
   top: 132px; }
 
+#sidebar-utente, #sidebar-eventi {
+  padding-top: 16px;
+  padding-bottom: 16px; }
+
 .sfondo-bianco {
   background-color: white; }
+
+.sfondo-arancio {
+  background-color: #FFB752; }
+
+.sfondo-verde {
+  background-color: #A0C775; }
+
+.testo-marrone {
+  color: #634E42; }
+
+.testo-bianco {
+  color: white; }
+
+.testo-verde {
+  color: #A0C775; }
 
 #dashboard-centro-esterno {
   padding: 0 16px;

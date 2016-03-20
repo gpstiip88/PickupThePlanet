@@ -3,7 +3,7 @@
 @section('content')
   @if(isset($posts))
   @foreach($posts as $post)
-  <div class="post sfondo-bianco">
+  <div class="col-xs-12 post sfondo-bianco">
 	  <div class="row">
 	  	<div class="col-xs-12">
 	  		<img src="{{ asset($post->user->image) }}" class="img-responsive pull-left img-circle mini-avatar" />
@@ -12,7 +12,7 @@
 	  	</div>
 	  </div>
 	  <div class="row">
-	  	<div class="col-xs-12" style="margin: 16px;">
+	  	<div class="col-xs-12">
 	  		{{ $post->content }}
 	  	</div>
 	  </div>

@@ -49,6 +49,13 @@ class EventsController extends Controller
     {
         $event = Event::create($request->all());
 
+        $imageName = $event->id . '.' . 
+        $request->file('image')->getClientOriginalExtension();
+
+        $request->file('image')->move(
+            base_path() . '/public/uploads/images/', $imageName
+        );
+
         return redirect()->route('events.index');
     }
 

@@ -1,9 +1,19 @@
+body {
+  background-color: #E1DCCF; }
+
 .main {
-  top: 100px;
+  top: 132px; }
+
+.sfondo-bianco {
+  background-color: white; }
+
+#dashboard-centro-esterno {
+  padding: 0 16px;
   background-color: #E1DCCF; }
 
 .putp-navbar {
-  background-color: #A0C775; }
+  background-color: #A0C775;
+  padding: 16px 0; }
 
 .icone {
   background-image: url("../img/icons.png");

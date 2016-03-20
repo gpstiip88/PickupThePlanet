@@ -1,7 +1,7 @@
 <div id="sidebar-utente" class="col-sm-3 sfondo-bianco text-center padded-updown">
-  <img id="avatar" src="{{ asset($user['image']) }}" alt="{{ $user['name'] }}-avatar" class="img-circle center-block img-responsive">
-  <h2 class="text-center">{{ $user['name'] }}</h2>
-  <h3 class="text-center">{{ $user['username'] }}</h3>
+  <img id="avatar" src="{{ asset($farmer['image']) }}" alt="{{ $farmer['name'] }}-avatar" class="img-circle center-block img-responsive">
+  <h2 class="text-center">{{ $farmer['name'] }}</h2>
+  <h3 class="text-center">{{ $farmer['username'] }}</h3>
   <div class="row">
     <div class="col-sm-6 followers">
       <p>Followers</p>

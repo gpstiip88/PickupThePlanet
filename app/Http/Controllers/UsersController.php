@@ -118,4 +118,14 @@ class UsersController extends Controller
         return redirect()->route('users.index');
     }
 
+    public function farmers(Request $request, $id){
+        $user = User::findOrFail($id);
+        $data = array(
+            'farmer' => $user,
+            'events' => $user->events,
+            'posts' => $user->posts
+            );
+        return view('farmers.show', $data);
+    }
+
 }

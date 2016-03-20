@@ -34,4 +34,5 @@ Route::group(['middleware' => ['web']], function () {
 	Route::resource('comments', 'CommentsController');
 	Route::resource('interests', 'InterestsController');
 	Route::resource('event_types', 'EventTypesController');
+	Route::get('farmers/{id}', 'UsersController@farmers');
 });

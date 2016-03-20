@@ -29,7 +29,7 @@
 		  				<strong class="text-uppercase">Saonara</strong>
 		  			</div>
 		  			<div class="col-xs-6">
-		  				<a href="{!! route('events.show', 9) !!}" class="btn sfondo-arancio testo-bianco">ISCRIVITI</a>
+		  				<a href="{!! route('events.show', 10) !!}" class="btn sfondo-arancio testo-bianco">ISCRIVITI</a>
 		  			</div>
 		  		</div>
 		  	</div>

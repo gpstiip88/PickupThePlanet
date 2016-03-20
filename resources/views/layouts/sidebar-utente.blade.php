@@ -20,7 +20,8 @@
   <div class="row sfondo-arancio padded-updown">
     <div class="col-sm-3"><span class="icone icone-foglio"></div>
     <div class="col-sm-9"><span class="testo-grande">crea evento</span></div>
-  </div class="text-center">
+  </div>
+  <div class="text-center">
     <span class="icone icone-occhio center-block"></span>
     <h4>mi interesso a</h4>
     <p class="sfondo-verde testo-bianco testo-grande center-block text-circle">#Bio</p>

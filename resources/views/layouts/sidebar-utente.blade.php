@@ -1,5 +1,5 @@
-<div idclass="col-sm-3 center-block">
-  <img src="{{ asset('public/img/'.$user['image']) }}"
+<div id="sidebar-utente" class="col-sm-3 center-block">
+  <img src="{{ asset('public/img/utente.jpg' }}"
     alt="{{ $user['name'] }}-avatar" class="img-circle">
   <h2 class="text-center">{{ $user['name'] }}</h2>
   <h3 class="text-center">{{ $user['username'] }}</h3>

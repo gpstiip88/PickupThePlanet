@@ -13,9 +13,9 @@
     </div>
   </div>
   <div id="livello" class="row sfondo-verde">
-    <div class="col-sm-4"><span class="icone icone-seme-verde"></span></div>
+    <div class="col-sm-4"><span class="icone icone-semi-verde"></span></div>
     <div class="col-sm-4"><span class="icone icone-pianta-verde"></span></div>
-    <div class="col-sm-4"><span class="icone icone-frutta-bianco"></span></div>
+    <div class="col-sm-4"><span class="icone icone-frutto-bianco"></span></div>
   </div>
   <div class="row sfondo-arancio">
     <div class="col-sm-3"><span class="icone icone-foglio"></div>

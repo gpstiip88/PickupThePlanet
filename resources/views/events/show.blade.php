@@ -17,7 +17,7 @@
             <p class="content">Organizzato da {{ $event->user->name }}</p>
           </div>
         </div>
-        
+
       </div>
     </div>
     <div class="row" style="padding: 16px;">

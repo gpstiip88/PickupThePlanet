@@ -2,13 +2,11 @@
 
 @section('content')
   <div class="sfondo-bianco">
-    <div class="row">
-      <div class="col-sm-4">
-          <div class="same-height sfondo-arancio testo-bianco testo-grande text-uppercase">
-            tipo evento
-          </div>
+    <div class="row" style="display: table;padding: 0 16px;">
+      <div class="col-sm-4 same-height sfondo-arancio testo-bianco testo-grande text-uppercase">
+            {{ $event->type->name }}
       </div>
-      <div class="col-sm-8">
+      <div class="col-sm-8 same-height">
         <h2>{{ $event['title'] }}</h2>
         <h3>{{ $event['date'] }}</h3>
         <img src="{{ asset($event->user->image) }}" class="mini-avatar img-circle pull-left">

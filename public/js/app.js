@@ -1,3 +1,5 @@
 jQuery(document).ready(function($){
-	$('span.ricerca').slide('left');
+	$('#search-icon').click(function(){
+		$('#search-input').toggle( "slide", {direction: "left"} );
+	});
 });

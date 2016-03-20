@@ -12,4 +12,12 @@
       <span id="following-number">88</span>
     </div>
   </div>
+  <div class="tags">
+    <div class="tags-main">
+
+    </div>
+    <div class="tags-secondary">
+
+    </div>
+  </div>
 </div>

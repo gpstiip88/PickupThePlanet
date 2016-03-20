@@ -11,3 +11,20 @@ $nero: #333;
   top: 100px;
   background-color: $grigio;
 }
+
+.icon-foglio, .icon-lente {
+  background-image: url('../img/icons.png');
+  background-repeat: no-repeat;
+}
+
+.icon-foglio {
+  background-position: 0 0;
+  width: 80px;
+  height: 80px;
+}
+
+.icon-lente {
+  background-position: 240px 80px;
+  width: 80px;
+  height: 80px;
+}

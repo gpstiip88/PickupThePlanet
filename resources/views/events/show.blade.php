@@ -2,13 +2,13 @@
 
 @section('content')
   <div class="row">
-    <div class="col-sm-4">
+    <div class="col-sm-4 same-height sfondo-arancio testo-bianco testo-grande text-uppercase">
         tipo evento
     </div>
     <div class="col-sm-8">
       <h2>{{ $event['title'] }}</h2>
       <h3>{{ $event['date'] }}</h3>
-      <img src="{{ asset($event->user->image) }}">
+      <img src="{{ asset($event->user->image) }}" class="mini-avatar img-circle pull-left">
       <p>Organizzato da {{ $event->user->name }}</p>
     </div>
     <div class="row">
@@ -20,7 +20,7 @@
         <img href="{{ asset('img/luogo.jpg') }}">
         <p>Partecipanti</p>
         @foreach ($event->users as $user)
-          <img href="{{ asset($user->image) }}" class="mini-avatar img-circle pull-left">
+          <img src="{{ asset($user->image) }}" class="mini-avatar img-circle pull-left">
         @endforeach
       </div>
     </div>

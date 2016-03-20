@@ -28,7 +28,7 @@
 	  	<div class="col-xs-offset-3 col-xs-2"><span class="icone icone-cuore text-center"></span></div>
 	  	<div class="col-xs-offset-4 col-xs-1"><span class="icone icone-comment text-right" data-textarea="text-{{ $post->id }}"></span></div>
 	  </div>
-    <div class="row hidden" id="text-{{ $post->id }}">
+    <div class="row" style="display:none;" id="text-{{ $post->id }}">
       <div class="col-xs-12">
         <form>
           <div class="form-group">

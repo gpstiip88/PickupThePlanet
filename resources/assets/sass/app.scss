@@ -4,19 +4,43 @@ $marrone: #634E42;
 $verde: #A0C775;
 $grigio: #E1DCCF;
 $blu: #37D1C2;
-$giallo: #FFB752;
+$arancio: #FFB752;
 $nero: #333;
 
 body {
   background-color: $grigio;
+  font-family: 'Raleway', sans-serif;
 }
 
 .main {
   top: 132px;
 }
 
+#sidebar-utente, #sidebar-eventi {
+  padding: 16px 0;
+}
 .sfondo-bianco {
   background-color: white;
+}
+
+.sfondo-arancio {
+  background-color: $arancio;
+}
+
+.sfondo-verde {
+  background-color: $verde
+}
+
+.testo-marrone {
+  color: $marrone;
+}
+
+.testo-bianco {
+  color: white;
+}
+
+.testo-verde {
+  color: $verde
 }
 
 #dashboard-centro-esterno {

@@ -35,5 +35,7 @@
 		<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 		<!-- Bootstrap JavaScript -->
 		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+		<script src="{{ asset('js/app.js') }}"></script>
 	</body>
 </html>

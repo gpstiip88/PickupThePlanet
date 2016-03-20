@@ -112,11 +112,17 @@ body {
   background-position: -60px -20px;
 }
 
-.icone-foglio, .icone-occhio, .icone-semi-verde, .icone-pianta-verde, .icone-frutto-verde,
+.icone-occhio, .icone-semi-verde, .icone-pianta-verde, .icone-frutto-verde,
 .icone-semi-bianco, .icone-.icone-occhio, bianco, .icone-frutto-bianco {
   background-size: 240px auto;
   width: 60px;
   height: 60px;
+}
+
+.icone-foglio {
+  background-size: 160px auto;
+  width: 40px;
+  height: 40px;
 }
 
 .icone-foglio {

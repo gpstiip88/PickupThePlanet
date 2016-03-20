@@ -2,8 +2,10 @@
 
 @section('content')
   <div class="row">
-    <div class="col-sm-4 same-height sfondo-arancio testo-bianco testo-grande text-uppercase">
-        tipo evento
+    <div class="col-sm-4">
+        <div class="same-height sfondo-arancio testo-bianco testo-grande text-uppercase">
+          tipo evento
+        </div>
     </div>
     <div class="col-sm-8">
       <h2>{{ $event['title'] }}</h2>

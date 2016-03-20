@@ -25,7 +25,7 @@
         </div>
 
         <div class="row">
-          <div class="col-sm-12 text-right"><h2>Da seme a frutto per raccogliere un mondo migliore.</h2></div>
+          <div class="col-sm-12 text-right testo-marrone"><h2>Da seme a frutto per raccogliere un mondo migliore.</h2></div>
       </div>
     </div>
   </div>

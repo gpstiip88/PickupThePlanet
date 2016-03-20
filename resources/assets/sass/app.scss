@@ -1,5 +1,13 @@
 // @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
-body {
-  max-width: 900px;
+$marrone: #634E42;
+$verde: #A0C775;
+$grigio: #E1DCCF;
+$blu: #37D1C2;
+$giallo: #FFB752;
+$nero: #333;
+
+.main {
+  top: 100px;
+  background-color: $grigio;
 }

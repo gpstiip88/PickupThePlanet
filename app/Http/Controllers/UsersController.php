@@ -47,7 +47,17 @@ class UsersController extends Controller
      */
     public function store(CreateUserRequest $request)
     {
-        $user = User::create($request->all());
+        $inputs = $request->all();
+
+        $imageName = $request->file('image')->getClientOriginalName();
+
+        $request->file('image')->move(
+            base_path() . '/public/uploads/images/', $imageName
+        );
+
+        $inputs['image'] = 'uploads/images/'. $imageName;
+
+        $user = User::create($inputs);
 
         return redirect()->route('users.index');
     }

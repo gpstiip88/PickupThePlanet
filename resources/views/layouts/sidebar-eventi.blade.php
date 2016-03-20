@@ -11,8 +11,8 @@
 	  		@foreach($events as $event)
 	  		<div class="evento">
 		  		<div class="row" style="display:table;">
-		  			<div class="col-xs-6 sfondo-arancio same-height">
-		  				<h3 class="testo-bianco">{{ $event->type }}</h3>	  				
+		  			<div class="col-xs-6 @if($event->type_id == 1)sfondo-arancio @else sfondo-blu @endif same-height">
+		  				<h3 class="testo-bianco">{{ $event->type->name }}</h3>	  				
 		  			</div>
 		  			<div class="col-xs-6 no-padding same-height">
 		  				<img class="img-responsive" src="{{ asset($event->image) }}" />	  				

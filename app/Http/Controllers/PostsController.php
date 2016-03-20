@@ -37,7 +37,8 @@ class PostsController extends Controller
      */
     public function create()
     {
-        return view('posts.create');
+        $data = array('users' => \App\User::lists('name', 'id'));
+        return view('posts.create', $data);
     }
 
     /**

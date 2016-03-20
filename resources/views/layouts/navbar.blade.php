@@ -17,14 +17,9 @@
                 </select>
               </div>
               <div class="form-group has-feedback">
-                <input type="text" class="form-control" id="inputSuccess2" aria-describedby="inputSuccess2Status">
+                <input type="text" class="form-control" placeholder="Cerca..." id="inputSuccess2" aria-describedby="inputSuccess2Status">
                 <span class="icone icone-lente form-control-feedback" aria-hidden="true"></span>
               </div>
-              <div class="form-group">
-                <label class="sr-only" for="search">Cerca</label>
-                <input type="text" class="form-control" placeholder="Cerca...">
-              </div>
-              <span class="icone icone-lente"></span>
             </form>
           </div>
         </div>

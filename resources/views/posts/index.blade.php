@@ -5,10 +5,10 @@
   @foreach($posts as $post)
   <div class="col-xs-12 post sfondo-bianco">
 	  <div class="row">
-	  	<div class="col-xs-12">
+	  	<div class="col-xs-12" style="padding: 8px">
 	  		<img src="{{ asset($post->user->image) }}" class="img-responsive pull-left img-circle mini-avatar" />
-	  		<span class="pull-left text-middle">{{ $post->user->name }}</span>
-	  		<span class="pull-left icone icone-semi-verde"></span>
+	  		<span class="pull-left text-middle" style="line-height: 60px; padding: 0 16px;">{{ $post->user->name }}</span>
+	  		<span class="pull-left icone icone-semi-verde" style="transform: scale(0.5);"></span>
 	  	</div>
 	  </div>
 	  <div class="row">

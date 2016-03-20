@@ -23,6 +23,11 @@
 	  	</div>
 	  </div>
 	  @endif
+	  <div class="row">
+	  	<div class="col-xs-4"><span class="icone icone-connect text-left"></span></div>
+	  	<div class="col-xs-4"><span class="icone icone-cuore text-center"></span></div>
+	  	<div class="col-xs-4"><span class="icone icone-comment text-right"></span></div>
+	  </div>
 	</div>
   @endforeach
   @endif
